@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Board = require("../models/Board"); // ✅ THIS WAS MISSING
+const Board = require("../models/Board"); 
 
 const {
   createBoard,
